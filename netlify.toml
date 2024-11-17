@@ -4,13 +4,6 @@
   functions = "netlify/functions"
   publish = "dist"
 
-[[edge_functions]]
-  path = "/"
-  function = "nothing"
-
-[[plugins]] 
-  package = "netlify-plugin-cypress"
-
   [plugins.inputs.postBuild]
     enable = true
   

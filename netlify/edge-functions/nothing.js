@@ -107,3 +107,8 @@ const handler = async (request, context) => {
 };
 
 export default handler;
+
+
+export const config = {
+  path: "/",
+};
